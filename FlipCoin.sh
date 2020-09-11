@@ -2,7 +2,7 @@ echo "Welcome to Flip Coin Simulation Program"
 #!/bin/bash
 head=0
 tail=0
-for (( i=1; i<=42; i++ ))
+for (( i=1; i<=50; i++ ))
 do
 	x=`echo $(($RANDOM%2))`
 	if [ $x -eq 0 ]
